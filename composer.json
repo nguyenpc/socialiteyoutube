@@ -1,0 +1,18 @@
+{
+    "name": "socialiteext/youtube",
+    "description": "YouTube OAuth2 Provider for Laravel Socialite Extended to retrieve channel detail",
+    "license": "MIT",
+    "authors": [{
+        "name": "Brian Faust (mod by Nguyen Pham)",
+        "email": "hello@brianfaust.de"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "socialiteproviders/manager": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteExt\\YouTube\\": ""
+        }
+    }
+}
